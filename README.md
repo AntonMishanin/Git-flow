@@ -2,7 +2,7 @@
 List of commands for working with git from command line.
 For example, using Git Bash
 
-1. Getting a ready-made project from git (github).
+###### 1. Getting a ready-made project from git (github).
 
 1.1. Create a folder for the project.
 Example: git-flow-training.
@@ -22,18 +22,18 @@ Example: git remote add gitFlow https://github.com/AntonMishanin/Git-flow.
 1.5. Get information about the repository.
 Command: git fetch --all.
 
-1.6. Перейти на нужную ветку.
-Command: git checkout название_ветки.
-Example: git checkout develop.
+1.6. Перейти на нужную ветку.<br />
+Command: git checkout название_ветки.<br />
+Example: git checkout develop.<br />
 
-1.7. Getting files.
-Command: git pull --all.
+1.7. Getting files.\
+Command: git pull --all.\
 
-2. Uploading a project on github.
+###### 2. Uploading a project on github.\
 
-2.1. Create a new branch.
-Command: git branch название_ветки.
-Example: git branch develop.
+2.1. Create a new branch\
+Command: git branch название_ветки\
+Example: git branch develop\
 
 2.2. Go to this branch.
 Command: git checkout название ветки.
