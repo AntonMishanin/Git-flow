@@ -78,7 +78,7 @@ Note: name_of_the_remote_repository is from item 1.4.<br />
 
 #### 4. My list of errors
 
-4.1. action: git remote add...(item 1.4).<br />
+**4.1.** action: git remote add...(item 1.4).<br />
 fatal: remote origin already exists.<br />
 solution:git remote rm origin<br />
 and repeat<br />
