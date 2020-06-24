@@ -10,7 +10,7 @@ Example: git-flow-training.
 1.2. Go to this folder.
 Command: cd путь_до_папки.
 Example: cd C:/git-flow-training.
-Note: you need to use the right slash.
+Note: you need to use the right slash
 
 1.3. Initialize the local repository.
 Command: git init.
