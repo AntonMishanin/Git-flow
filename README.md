@@ -51,3 +51,34 @@ Example: git commit -m "Create toolbar".<br />
 Command: git push -u name_of_the_remote_repository name_of_the_branch.<br />
 Example: git push -u gitFlow develop.<br />
 Note: name_of_the_remote_repository is from item 1.4.<br />
+
+#### 3. My list of commands
+
+ - git log looking at commits/ / information about the commit
+ - clear 
+ - git status
+ - git checkout ...
+ - git branch list of branches
+ - git branch develop -creates a branch develop
+ - git commit -m "New commit"
+ - git add . Add all files
+ - ls list of files in the initialized repository
+ - git diff looking at changes in files
+ - git pull getting files from github
+ - git checkout the_name_of_the_branch - move to another branch
+ - git push --all throwing and creating a new branch on github
+ - git merge ветку - infuses the branch that we specify in the current branch
+ - git branch -d the_name_of_the_branch - delete branch
+ - git fetch - pulls information about a remote repository(without code)
+//git push -f origin develop
+
+ - git fetch --all getting files without the change tree
+ - git pull --all getting files with the change tree
+
+
+//fatal: remote origin already exists.
+//solution:git remote rm origin
+//and repeat
+git push -u origin master
+
+git push --all
