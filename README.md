@@ -4,7 +4,7 @@ For example, using Git Bash<br />
 
 #### 1. Getting a ready-made project from git (github).
 
-1.1. Create a folder for the project.<br />
+**1.1. Create a folder for the project.**<br />
 Example: git-flow-training.<br />
 
 1.2. Go to this folder.<br />
