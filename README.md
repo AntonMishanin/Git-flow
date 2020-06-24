@@ -70,15 +70,16 @@ Note: name_of_the_remote_repository is from item 1.4.<br />
  - git merge ветку - infuses the branch that we specify in the current branch
  - git branch -d the_name_of_the_branch - delete branch
  - git fetch - pulls information about a remote repository(without code)
-//git push -f origin develop
-
+ - git push -f origin develop
+ - git push --all
+ - git push -u origin master
  - git fetch --all getting files without the change tree
  - git pull --all getting files with the change tree
 
+#### 4. My list of errors
 
-//fatal: remote origin already exists.
-//solution:git remote rm origin
-//and repeat
-git push -u origin master
+4.1. action: git remote add...(item 1.4).<br />
+fatal: remote origin already exists.<br />
+solution:git remote rm origin<br />
+and repeat<br />
 
-git push --all
