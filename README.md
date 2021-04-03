@@ -83,3 +83,7 @@ fatal: remote origin already exists.<br />
 solution:git remote rm origin<br />
 and repeat<br />
 
+Remove the cache of all the files
+git rm -r --cached .
+Remove the cache of specific file
+git rm -r --cached <file_name.ext>
