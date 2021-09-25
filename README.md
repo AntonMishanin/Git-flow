@@ -136,3 +136,5 @@ Remove the cache of all the files
 
 Remove the cache of specific file
  - git rm -r --cached <file_name.ext>
+
+Чтобы не было коммита о мерже: git config merge.ff false
